@@ -65,7 +65,7 @@ class App extends Component {
       <div className={st.wrapper}>
         <h1 className={st.title}>Phonebook</h1>
         <ContactForm onSubmit={this.submitHandler} />
-        <h2 className={st.subtitle}>Contats</h2>
+        <h2 className={st.subtitle}>Contacts</h2>
         {contacts.length > 1 && (
           <Filter
             initialValue={filter}
