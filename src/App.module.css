@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  margin: 20px;
+  font-weight: 700;
+  color: rgb(9, 102, 109);
+}
+.subtitle {
+  margin: 20px;
+}

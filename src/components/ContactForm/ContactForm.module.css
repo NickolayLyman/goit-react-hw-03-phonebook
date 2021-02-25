@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  border: 1.5px solid rgba(9, 102, 109, 0.5);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(55%, 55%, 55%, 0.5);
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  color: rgb(9, 102, 109);
+}
+.input {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
+  height: 30px;
+  color: rgb(9, 102, 109);
+  outline: rgb(9, 102, 109);
+  border: 1px solid rgb(9, 102, 109);
+  border-radius: 5px;
+}
+.input:focus,
+.input:hover {
+  border: 2px solid rgb(9, 102, 109);
+}
+.btn {
+  height: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  color: aliceblue;
+  background-color: rgb(9, 102, 109);
+  border: none;
+  outline: rgb(9, 102, 109);
+}
+.btn:hover {
+  transform: scale(1.08);
+}
+.error {
+  font-size: 10px;
+  color: rgb(184, 8, 8);
+}
